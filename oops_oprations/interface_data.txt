@@ -1,0 +1,23 @@
+/*
+--> java doesn't support multiple inheritance so use 
+    interface to solve problem
+-->similar to class and declare method without create body
+-->method and data contain only constant
+    interface interface_name
+    {
+        variable declaration;
+        method declaration;
+    }
+-->variable name declared:
+    static final type var_name=value;
+-->method contain without any body
+    interface item
+    {
+        static final int code=10;
+        void disp();
+    }
+-->inheritance
+        class classname extends superclass implements interface1,interface2....
+      
+
+class to class=extends keyword  

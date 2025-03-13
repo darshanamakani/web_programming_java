@@ -1,0 +1,10 @@
+<web-app>
+  <servlet>
+    <servlet-name>MySearcher</servlet-name>
+    <servlet-class>MySearcher</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MySearcher</servlet-name>
+    <url-pattern>/MySearcher</url-pattern>
+  </servlet-mapping>
+</web-app>
